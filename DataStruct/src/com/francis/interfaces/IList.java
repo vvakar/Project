@@ -1,6 +1,6 @@
 package com.francis.interfaces;
 
- IList {
+
 
 public interface IList<E> {
 	
@@ -43,4 +43,3 @@ public interface IList<E> {
 }
 
 
-}

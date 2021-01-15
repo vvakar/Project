@@ -6,6 +6,8 @@ import com.francis.interfaces.IList;
 
 public class Runner {
 	//String generic 
+	
+	public static void Main(String[] args) {
 			IList<String> customer = new myList<String>();
 			
 			//Integer generic
