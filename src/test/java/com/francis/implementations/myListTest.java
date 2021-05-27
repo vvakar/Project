@@ -12,4 +12,11 @@ public class myListTest {
         IList list = new myList();
         assertEquals(list.getSize(), 0);
     }
+
+    @Test
+    public void test_insertItems_preservesInsertOrder() {
+        IList list = new myList();
+
+        // TODO: Fill this  in
+    }
 }
