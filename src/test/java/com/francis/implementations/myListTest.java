@@ -16,7 +16,10 @@ public class myListTest {
     @Test
     public void test_insertItems_preservesInsertOrder() {
         IList list = new myList();
+        list.add("apple");
+        list.add("orange");
 
-        // TODO: Fill this  in
+        assertEquals(list.get(0), "apple");
+        assertEquals(list.get(1), "orange");
     }
 }
